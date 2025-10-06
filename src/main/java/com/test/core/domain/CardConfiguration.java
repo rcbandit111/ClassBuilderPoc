@@ -11,7 +11,7 @@ import java.util.List;
 @Builder
 public class CardConfiguration {
 
-    private String storeId;
+    private String carId;
 
     private String storePassword;
 

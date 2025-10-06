@@ -20,6 +20,8 @@ public class Controller {
                 .map(CardConfiguration::getCardTypes)
                 .orElse(null);
 
+        CardConfiguration.builder().cardType((List<com.test.core.domain.CardType>) com.test.core.domain.CardType.builder().type(null).build()).build();
+
         return "test";
     }
 }
