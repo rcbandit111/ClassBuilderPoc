@@ -4,11 +4,11 @@ plugins {
     id 'java'
 }
 
-group = 'com.jdbc.type.poc'
+group = 'com.class.builder.poc'
 version = '0.0.1'
 
 tasks.bootJar {
-    archiveFileName.set('jdbc-type-poc.jar')
+    archiveFileName.set('class-builder-poc.jar')
 }
 
 java {
